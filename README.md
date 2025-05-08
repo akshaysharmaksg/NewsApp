@@ -68,3 +68,37 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# NewsMonkey - React News App
+
+NewsMonkey is a React-based web application that provides the latest news articles from around the world. Users can view top headlines across various categories such as Business, Health, Technology, Science, Entertainment, and more. The app integrates the [NewsAPI](https://newsapi.org/) to fetch live news data.
+
+## Features
+- **Top Headlines**: Get the latest headlines from various categories.
+- **Infinite Scrolling**: Seamless experience as more articles load automatically as you scroll.
+- **Category Filter**: View news articles by categories like Business, Health, Entertainment, Science, etc.
+- **Responsive Design**: The app works seamlessly on both mobile and desktop devices.
+- **Progressive Loading**: Shows loading progress as articles are fetched from the API.
+- **API Key Management**: Fetch news articles securely by storing the API key in an environment variable.
+
+## Demo
+You can see a live demo of the application here: [Demo Link](https://your-deployment-link.com)
+
+## Technologies Used
+- **React.js**: A JavaScript library for building the user interface.
+- **NewsAPI**: A service that provides access to a wide range of news articles from multiple sources.
+- **React Router**: For handling page routing and navigation between news categories.
+- **react-infinite-scroll-component**: For infinite scrolling functionality to load articles dynamically.
+- **react-top-loading-bar**: A library to show a loading bar while fetching data from the API.
+
+## Installation and Setup
+
+### Prerequisites
+Make sure you have the following tools installed:
+- [Node.js](https://nodejs.org/) (v12 or higher)
+- [npm](https://www.npmjs.com/)
+
+### Clone the Repository
+Clone this repository to your local machine using the following command:
+
+```bash
+git clone https://github.com/your-username/news-app.git
